@@ -1,0 +1,22 @@
+{
+	"name": "stojg/silverstripe-incidents",
+	"description": "PRE ALPHA",
+	"type": "silverstripe-module",
+	"license": "BSD-3-Clause",
+	"authors": [
+		{
+		"name": "Stig Lindqvist",
+		"homepage": "https://stojg.se",
+		"role": "Developer"
+		}
+	],
+	"require": {
+		"silverstripe/framework": "3.1.*",
+		"composer/installers": "*"
+		"webbuilders-group/silverstripe-frontendgridfield": "*"
+	},
+	"config": {
+		"process-timeout": 600	
+	},
+	"minimum-stability": "dev"
+}
